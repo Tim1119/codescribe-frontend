@@ -15,7 +15,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
   readOnly = false,
   height = '500px'
 }) => {
-  const handleEditorDidMount: OnMount = (editor, monaco) => {
+  const handleEditorDidMount: OnMount = (_editor, monaco) => {
     // Define custom theme
     monaco.editor.defineTheme('documint-dark', {
       base: 'vs-dark',

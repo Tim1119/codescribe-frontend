@@ -3,8 +3,7 @@ import { Link, useLocation, Outlet } from 'react-router-dom';
 import { 
   FileText, 
   BookOpen, 
-  Menu, 
-  X, 
+  Menu,
   Server, 
   Sparkles, 
   GitGraph, 
