@@ -12,6 +12,7 @@ import {
   Activity 
 } from 'lucide-react';
 import clsx from 'clsx';
+import logo from '../assets/logo.png';
 
 const SidebarItem = ({ icon: Icon, label, to, active }: { icon: any, label: string, to: string, active: boolean }) => (
   <Link
@@ -54,7 +55,7 @@ const Layout = () => {
       >
         <div className="p-6 flex items-center gap-3 border-b border-slate-800">
           <div className="w-8 h-8 bg-linear-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold">
-            D
+            <img src={logo} alt="Documint-logo"/>
           </div>
           {isSidebarOpen && <span className="font-bold text-xl text-white">DocuMint</span>}
         </div>
