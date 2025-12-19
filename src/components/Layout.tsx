@@ -72,19 +72,6 @@ const Layout = () => {
           ))}
         </nav>
 
-        <div className="p-4 border-t border-slate-800">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center">
-              <span className="text-xs font-bold">US</span>
-            </div>
-            {isSidebarOpen && (
-              <div className="flex-1 overflow-hidden">
-                <p className="text-sm font-medium text-white truncate">User</p>
-                <p className="text-xs text-slate-500 truncate">Pro Plan</p>
-              </div>
-            )}
-          </div>
-        </div>
       </aside>
 
       {/* Main Content */}
