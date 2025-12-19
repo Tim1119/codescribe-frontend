@@ -1,6 +1,6 @@
 # DocuMint Frontend
 
-This is the frontend application for DocuMint, built with React, TypeScript, and Vite.
+This is the frontend application for DocuMint, built with React, TypeScript, and Vite. The backed is https://github.com/Tim1119/codescribe-backend
 
 ## Development
 
