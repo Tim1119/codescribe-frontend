@@ -120,7 +120,7 @@ const ArchitectureDiagram = () => {
                 {files.map((file, index) => (
                   <div key={index} className="flex items-center justify-between bg-slate-900/50 p-2 rounded border border-slate-700/50">
                     <div className="flex items-center gap-2 overflow-hidden">
-                      <File size={16} className="text-primary flex-shrink-0" />
+                      <File size={16} className="text-primary shrink-0" />
                       <span className="text-sm text-slate-300 truncate">{file.name}</span>
                     </div>
                     <button 
