@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CodeEditor from './CodeEditor';
 import { Sparkles, Loader2, Activity, AlertCircle, Info } from 'lucide-react';
 import { API_URL } from '../config';

@@ -1,4 +1,3 @@
-import React from 'react';
 import Editor, { type OnMount } from '@monaco-editor/react';
 
 interface CodeEditorProps {

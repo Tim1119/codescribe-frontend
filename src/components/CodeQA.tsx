@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, File, X, Send, Loader2, MessageSquare, Code, User, Bot } from 'lucide-react';
 import MarkdownPreview from './MarkdownPreview';

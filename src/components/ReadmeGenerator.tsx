@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import  { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, File, X, Sparkles, Loader2 } from 'lucide-react';
 import MarkdownPreview from './MarkdownPreview';

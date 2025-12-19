@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CodeEditor from './CodeEditor';
 import MarkdownPreview from './MarkdownPreview';
 import { Sparkles, Loader2, BookOpen, Lightbulb, Target } from 'lucide-react';
